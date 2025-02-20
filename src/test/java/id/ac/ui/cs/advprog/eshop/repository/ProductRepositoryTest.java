@@ -70,12 +70,13 @@ class ProductRepositoryTest {
     @Test
     void testEditProduct() {
         Product product = new Product();
+        product.setProductId("eb558e9f-1c39-460e-8860-71af6af63bd6");
         product.setProductName("Sampo Cap Bambang");
         product.setProductQuantity(100);
         productRepository.create(product);
 
         Product product_edited = new Product();
-        product_edited.setProductId(product.getProductId());
+        product_edited.setProductId("a0f9de46-90b1-437d-a0bf-d0821dde9096");
         product_edited.setProductName("Sampo Cap Kasep");
         product_edited.setProductQuantity(150);
         productRepository.edit(product_edited);
