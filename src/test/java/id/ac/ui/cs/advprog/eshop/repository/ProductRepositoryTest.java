@@ -95,4 +95,28 @@ class ProductRepositoryTest {
         Iterator<Product> iterator = productRepository.findAll();
         assertFalse(iterator.hasNext());
     }
+
+    @Test
+    void testEditNonExistentProduct() {
+        Product product = new Product();
+        product.setProductId("non-existent-id");
+        product.setProductName("Non-Existent Product");
+        product.setProductQuantity(10);
+
+        Product result = productRepository.edit(product);
+
+        assertNull(result);
+    }
+
+    @Test
+    void testDeleteNonExistentProduct() {
+        Product product = new Product();
+        product.setProductId("non-existent-id");
+        product.setProductName("Non-Existent Product");
+        product.setProductQuantity(10);
+
+        Product result = productRepository.delete(product);
+
+        assertNull(result);
+    }
 }
