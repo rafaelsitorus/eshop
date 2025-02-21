@@ -22,6 +22,18 @@ Menambahkan functional test suite baru dengan setup dan variabel yang sama seper
 Untuk memperbaiki masalah ini, kita dapat mengabstraksi setup dan konfigurasi yang berulang ke kelas atau metode base test yang dapat diwarisi oleh semua functional test suites. 
 Dengan cara ini, kode menjadi lebih terorganisir, lebih mudah dikelola, dan lebih bersih, sesuai dengan prinsip clean code.
 
+Reflection 1. modul 2.
+
+Selama proses ini, saya memperbaiki beberapa masalah kualitas kode. Salah satu yang utama adalah dalam metode edit pada ProductRepository, di mana semua produk dalam daftar 
+diperbarui dengan nilai yang sama karena tidak ada pengecekan productId. Saya memperbaikinya dengan menambahkan validasi agar hanya produk yang sesuai yang diubah, sehingga tidak 
+mengganggu data lain dalam daftar.
+
+Reflection 2. modul 2.
+Mengenai implementasi CI/CD, saya yakin proses yang dilakukan sudah memenuhi definisi CI/CD. Setiap kali ada perubahan pada kode, pengujian 
+berjalan secara otomatis untuk memastikan tidak ada error sebelum kode digabungkan. Selain itu, analisis kualitas kode dilakukan untuk mendeteksi potensi masalah sejak dini. Jika semua 
+tahapan berhasil, aplikasi langsung dideploy ke PaaS tanpa intervensi manual, menjadikan alur kerja lebih efisien.
+
+link koyeb: https://wilful-austina-rafaelsitorus-cefb6a81.koyeb.app/product/list
 
 
 
