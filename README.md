@@ -69,6 +69,24 @@ langsung pada ProductService, melainkan melalui abstraksi ProductServiceImpl. Di
 dihindari dengan menggunakan abstraksi, sehingga ketergantungan antar modul menjadi fleksibel dan mudah diuji, 
 sesuai dengan prinsip DIP.
 
+Reflection 1. Modul 3:
+
+1. Saya mengimplementasikan Solid Principle dalam project saya kali ini
+2. Kelebihan dari SOLID principle berdampak pada modularitas kode, fleksibilitas, dan kemudahan iklim pengembangan, contohnya pada SRP, 
+dimana SRP mempermudah pemeliharaan kode dengan memisahkan tanggung jawab. 
+Contohnya, ProductController yang hanya menangani request terkait produk, sedangkan CarController menangani request terkait mobil.
+3. Tanpa menerapkan prinsip SOLID, kode dalam proyek menjadi sulit dipelihara, sulit diperluas, dan rentan terhadap bug. 
+Setiap perubahan bisa berdampak luas, mengakibatkan ketergantungan yang tidak perlu dan menyulitkan pengujian. 
+Dengan menerapkan SOLID, kode menjadi lebih modular, fleksibel, dan mudah dikembangkan tanpa harus merombak sistem yang sudah ada. 
+Hal ini memastikan proyek tetap scalable, mudah dikelola, dan memiliki struktur yang jelas, sehingga pengembangan jangka panjang lebih efisien.
+
+
+
+
+
+
+
+
 
 
 
