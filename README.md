@@ -80,18 +80,11 @@ Setiap perubahan bisa berdampak luas, mengakibatkan ketergantungan yang tidak pe
 Dengan menerapkan SOLID, kode menjadi lebih modular, fleksibel, dan mudah dikembangkan tanpa harus merombak sistem yang sudah ada. 
 Hal ini memastikan proyek tetap scalable, mudah dikelola, dan memiliki struktur yang jelas, sehingga pengembangan jangka panjang lebih efisien.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Reflection 1. Modul 4:
+1. Mengenai alur TDD, saya yakin proses yang diterapkan sudah optimal dalam menjamin kualitas kode. Setiap perubahan diawali dengan 
+hanya setelah tes berhasil, menjaga kode terorganisir. Jika ada kekurangan, saya perlu lebih memperhatikan pembuatan tes 
+yang lebih spesifik agar mendukung development yang lebih baik.
+2. Mengenai prinsip FIRST saya yakin sebagian besar pengujian yang dibuat sudah mengikutinya. Tes berjalan dengan baik,
+hasilnya konsisten setiap kali dijalankan, dan eksekusinya cepat. Namun, ada beberapa aspek
+yang bisa ditingkatkan, seperti memastikan isolasi lebih baik dengan menggunakan mock, serta memperjelas 
+tujuan setiap tes agar lebih mudah dipahami dan dikelola di masa mendatang.
